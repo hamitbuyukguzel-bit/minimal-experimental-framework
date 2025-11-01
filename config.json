@@ -1,0 +1,16 @@
+{
+    "experiment_name": "Simple_Reaction_Task",
+    "participant_id": "P999",
+    "screen_size": [800, 600],
+    "text_color": [255, 255, 255],
+    "background_color": [0, 0, 0],
+    "stimulus_duration_ms": 1000,
+    "fixation_duration_ms": 500,
+    "trials": [
+        {"stimulus": "RED", "correct_response": "z", "condition": "congruent"},
+        {"stimulus": "BLUE", "correct_response": "m", "condition": "incongruent"},
+        {"stimulus": "RED", "correct_response": "z", "condition": "congruent"},
+        {"stimulus": "BLUE", "correct_response": "m", "condition": "incongruent"},
+        {"stimulus": "GREEN", "correct_response": "x", "condition": "neutral"}
+    ]
+}
